@@ -41,7 +41,7 @@ public abstract class FormatTranslation {
             return "Other";
 
         return summaryLine.substring(
-                summaryLine.indexOf('-') + 1,
+                summaryLine.indexOf('-') + 2,
                 summaryLine.indexOf('\\')
         );
     }
